@@ -10,3 +10,4 @@ study-data-mongo/target/
 study-data-mongo/study-data-mongo.iml
 study-data-mongo/study-data-jpa.iml
 study-datasource/study-datasource.iml
+study-config-dependency/target/

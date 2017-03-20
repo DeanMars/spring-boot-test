@@ -1,7 +1,10 @@
-package com.springboottest;
+package com.springboottest.config;
 
-import com.springboottest.config.Configration01;
-import com.springboottest.config.ConfigrationJSR303;
+import com.springboottest.config.config.Configration01;
+import com.springboottest.config.config.ConfigrationJSR303;
+import com.springboottest.register.EnableMyRegister;
+import com.springboottest.selector.EnableMySelector;
+import com.springboottest.selector.SelectMode;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -12,6 +15,9 @@ import org.springframework.context.annotation.Bean;
  *
  */
 @SpringBootApplication
+//@EnableMyConfig
+//@EnableMySelector(value = SelectMode.MODE_TEST)
+@EnableMyRegister(name = "fgdhfdhgdf")
 public class App {
     public static void main( String[] args ){
         SpringApplication.run(App.class,args);

@@ -1,4 +1,4 @@
-package com.springboottest.config;
+package com.springboottest.config.config;
 
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;

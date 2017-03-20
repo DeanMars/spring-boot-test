@@ -1,4 +1,7 @@
-package com.springboottest.config;
+package com.springboottest.config.config;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +9,9 @@ import java.util.List;
 /**
  * Created by zhangchuqiang on 2017/3/9.
  */
-public class Configration01 {
+@Component
+@ConfigurationProperties(prefix = "my")
+public class Configration {
 
     private List<String> serverList=new ArrayList<String>();
 
@@ -18,5 +23,4 @@ public class Configration01 {
     public void setServerList(List<String> serverList) {
         this.serverList = serverList;
     }
-
 }

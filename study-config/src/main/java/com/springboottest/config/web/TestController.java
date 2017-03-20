@@ -1,8 +1,9 @@
-package com.springboottest.web;
+package com.springboottest.config.web;
 
-import com.springboottest.config.Configration;
-import com.springboottest.config.Configration01;
-import com.springboottest.config.Configration02;
+import com.springboottest.config.config.Configration;
+import com.springboottest.config.config.Configration01;
+import com.springboottest.config.config.Configration02;
+import com.springboottest.config.config.ConfigrationMyTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -21,6 +22,8 @@ public class TestController {
     private Configration01 configration01;
     @Autowired
     private Configration02.InnerConfigration innerConfigration;
+    @Autowired
+    private ConfigrationMyTest configrationMyTest;
 
     @ResponseBody
     @RequestMapping("getServers")
@@ -38,6 +41,13 @@ public class TestController {
     @RequestMapping("innerConfigration")
     public List<String> getInnerConfigrationServers01(){
         return innerConfigration.getServerList();
+    }
+
+
+    @ResponseBody
+    @RequestMapping("mytest")
+    public List<String> mytest(){
+        return configrationMyTest.getServerList();
     }
 
 }
