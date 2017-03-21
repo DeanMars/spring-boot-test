@@ -11,3 +11,5 @@ study-data-mongo/study-data-mongo.iml
 study-data-mongo/study-data-jpa.iml
 study-datasource/study-datasource.iml
 study-config-dependency/target/
+study-config-autoconfigration-starter/target/
+study-config-autoconfigration/target/

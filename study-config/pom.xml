@@ -42,6 +42,13 @@
       <artifactId>spring-boot-starter-web</artifactId>
       <version>${springboot.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.springboottest</groupId>
+      <artifactId>study-config-autoconfigration-starter</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
 
 
