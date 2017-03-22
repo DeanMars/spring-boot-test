@@ -1,10 +1,8 @@
 package com.springboottest.config;
 
-import com.springboottest.config.config.Configration01;
 import com.springboottest.config.config.ConfigrationJSR303;
+import com.springboottest.config.config.Configration01;
 import com.springboottest.register.EnableMyRegister;
-import com.springboottest.selector.EnableMySelector;
-import com.springboottest.selector.SelectMode;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;

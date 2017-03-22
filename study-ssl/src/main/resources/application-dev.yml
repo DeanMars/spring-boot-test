@@ -1,0 +1,21 @@
+my:
+  serverList:
+    - ytrtr
+    - dfghfdgf
+
+myjsr303:
+   name:
+
+   pwd:
+    123123
+testpojo:
+  name: zhangsan
+  test:
+    name: zhangtest
+  product:
+    name: zhangproduct
+
+
+
+testbean:
+  name: ggggggggg

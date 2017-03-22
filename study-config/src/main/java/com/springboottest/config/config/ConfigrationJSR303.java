@@ -1,8 +1,6 @@
 package com.springboottest.config.config;
 
 import javax.validation.constraints.NotNull;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by zhangchuqiang on 2017/3/9.

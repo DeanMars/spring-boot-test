@@ -1,4 +1,4 @@
-package com.springboottest.config.web;
+package com.springboottest.ssl.web;
 
 import com.springboottest.domain.entity.Test;
 import com.springboottest.service.TestService;
@@ -21,12 +21,4 @@ public class TestController {
         Iterable<Test> list= testService.getTests();
         return list;
     }
-
-    @RequestMapping("insert")
-    @ResponseBody
-    public Test insert(){
-        Test test= testService.insert();
-        return test;
-    }
-
 }
