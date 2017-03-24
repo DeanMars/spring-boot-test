@@ -23,6 +23,11 @@ public class App {
 
 
 
+
+
+
+    
+
     @Bean
     @ConfigurationProperties(prefix = "my")
     public Configration01 configration01(){
